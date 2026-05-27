@@ -935,7 +935,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
- ![Alt text](<Screenshot at 2026-05-27 11-45-51.png>)
+ ![ce](<Screenshot at 2026-05-27 11-45-51.png>)
 
 cat forctype1.sh 
 ```bash
@@ -950,7 +950,7 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 
- 
+![Alt text](<Screenshot at 2026-05-27 13-13-17.png>) 
 
 cat fornested1.sh 
 ```bash
@@ -970,6 +970,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
  
+![Alt text](<Screenshot at 2026-05-27 13-14-49.png>)
 
 cat forbreak.sh 
 ```bash
@@ -983,13 +984,13 @@ break
 fi
 echo "Iteration number: $var1"
 done
-echo "The for loop is completed“
+echo "The for loop is completed"
 ```
 $ chmod 755 forbreak.sh
 $ ./forbreak.sh 
  ## OUTPUT
 
- 
+![Alt text](<Screenshot at 2026-05-27 13-37-50.png>)
 
 cat forbreak.sh 
 ```bash
@@ -1003,16 +1004,13 @@ continue
 fi
 echo "Iteration number: $var1"
 done
-echo "The for loop is completed“
+echo "The for loop is completed"
 ```
-
- 
 $ chmod 755 forcontinue.sh
- 
 $ ./forcontinue.sh 
 ## OUTPUT
 
- 
+![Alt text](<Screenshot at 2026-05-27 13-34-37.png>) 
  
 cat exread.sh 
 ```bash
@@ -1026,7 +1024,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
- 
+ ![-](<Screenshot at 2026-05-27 13-40-07.png>)
 
  cat exread1.sh
 ```bash
@@ -1037,11 +1035,9 @@ echo "Hello $name, welcome to my program. "
 ``` 
 $ chmod 755 exread1.sh 
 
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+## OUTPUT
+![Alt text](<Screenshot at 2026-05-27 13-48-43.png>)
  
 cat funcex.sh
 ```bash
@@ -1061,14 +1057,16 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
+![Alt text](<Screenshot at 2026-05-27 13-50-15.png>)
  
  ./funcex.sh 1 2
 
+![Alt text](<Screenshot at 2026-05-27 13-50-35.png>)
 
 cat argshift.sh
 ```bash
 #!/bin/bash 
- while (( "$#" )); do 
+while (( "$#" )); do 
   echo $1 
   shift 
 done
@@ -1077,6 +1075,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+![Alt text](<Screenshot at 2026-05-27 13-52-00.png>)
  
  cat argshift1.sh
 ```bash
@@ -1092,10 +1091,12 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
+
 ## OUTPUT
 $ ./argshift.sh 1 2 3
 
-![Alt text](<Screenshot at 2026-05-20 16-32-03.png>)
+![Alt text](<Screenshot at 2026-05-27 13-53-18.png>)
+
  
 cat argshift.sh
 ```bash
@@ -1110,7 +1111,8 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- ![Alt text](<Screenshot at 2026-05-20 16-38-31.png>)
+ ![Alt text](<Screenshot at 2026-05-27 13-54-31.png>)
+
 
 cat > nc.awk
 ```bash
@@ -1142,7 +1144,7 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
 
-![Alt text](<Screenshot at 2026-05-20 16-40-14.png>)
+![Alt text](<Screenshot at 2026-05-27 13-56-04.png>)
  
 cat > palindrome.sh
 ```bashS
@@ -1171,7 +1173,7 @@ fi
 ```
 ## OUTPUT 
 
-![Alt text](<Screenshot at 2026-05-20 16-41-58.png>)
+![Alt text](<Screenshot at 2026-05-27 13-57-36.png>)
 
 # RESULT:
 The Commands are executed successfully.
