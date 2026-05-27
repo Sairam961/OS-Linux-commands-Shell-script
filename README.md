@@ -935,7 +935,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
- ![Alt text](<Screenshot at 2026-05-27 11-45-51.png>)
+ ![ce](<Screenshot at 2026-05-27 11-45-51.png>)
 
 cat forctype1.sh 
 ```bash
@@ -950,7 +950,7 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 
- 
+![Alt text](<Screenshot at 2026-05-27 13-13-17.png>) 
 
 cat fornested1.sh 
 ```bash
@@ -970,6 +970,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
  
+![Alt text](<Screenshot at 2026-05-27 13-14-49.png>)
 
 cat forbreak.sh 
 ```bash
