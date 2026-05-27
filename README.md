@@ -567,8 +567,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
-![Alt text](<Screenshot at 2026-05-20 14-56-53.png>)
+ 
+ ![Alt text](<Screenshot at 2026-05-27 11-31-18.png>)
 
 # check if with file location
 cat>ifnested.sh 
@@ -615,8 +615,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
-![Alt text](<Screenshot at 2026-05-20 14-58-34.png>)
+ 
+ ![Alt text](<Screenshot at 2026-05-27 11-33-38.png>)
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -660,7 +660,7 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 14-59-55.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-34-29.png>)
 
 # check if a file
 cat > ifnested.sh 
@@ -711,7 +711,7 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 15-15-02.png>)
+![Alt text](<Screenshot at 2026-05-27 11-35-16.png>) 
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -741,7 +741,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 15-17-25.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-35-59.png>)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -757,8 +757,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
-![Alt text](<Screenshot at 2026-05-20 15-19-26.png>)
+ 
+ ![Alt text](<Screenshot at 2026-05-27 11-36-56.png>)
 
 # using the case command
 cat >casecheck.sh 
@@ -781,7 +781,7 @@ $ ./casecheck.sh
 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 15-20-35.png>)
+![Alt text](<Screenshot at 2026-05-27 11-37-41.png>) 
  
 cat > whiletest
 ```bash
@@ -800,7 +800,7 @@ $ ./whiletest.sh
 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 15-23-07.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-38-30.png>)
  
  
 cat untiltest.sh 
@@ -815,7 +815,7 @@ done
 ``$ chmod 755 untiltest.sh
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 15-58-48.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-39-44.png>)
  
 cat forin1.sh 
 ```bash
@@ -831,7 +831,7 @@ $chmod 755 forin1.sh
 
  ## OUTPUT
 
- [Alt text](<Screenshot at 2026-05-20 16-01-28.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-40-21.png>)
 
 cat forin2.sh 
 ```bash
@@ -847,7 +847,7 @@ $ chmod 755 forin2.sh
 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-02-49.png>) 
+ ![Alt text](<Screenshot at 2026-05-27 11-41-28.png>)
 
 cat forin2.sh 
 ```bash
@@ -863,7 +863,8 @@ $ chmod 755 forin2.sh
 $ ./forin2.sh 
 
 ## OUTPUT
-![Alt text](<Screenshot at 2026-05-20 16-02-49.png>)
+
+![c](<Screenshot at 2026-05-27 11-41-28.png>)
  
 cat forin3.sh 
 ```bash
@@ -878,7 +879,7 @@ $ ./forin3.sh
 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-06-15.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-42-18.png>)
  
 cat forin1.sh 
 ```bash
@@ -892,9 +893,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![Alt text](<Screenshot at 2026-05-27 11-42-59.png>)
 
-![Alt text](<Screenshot at 2026-05-20 16-07-57.png>)
-c
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -906,7 +906,7 @@ echo "Visit beautiful $file“
 done
 ```
 ## OUTPUT
-![Alt text](<Screenshot at 2026-05-20 16-11-15.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-45-10.png>)
 
 $ chmod 777 forinfile.sh
 $ cat cities
@@ -920,7 +920,7 @@ Khammam
 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-12-09.png>)
+![c](<Screenshot at 2026-05-27 11-45-10.png>)
 
 cat forctype.sh 
 ```bash
@@ -935,7 +935,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-15-18.png>)
+ ![Alt text](<Screenshot at 2026-05-27 11-45-51.png>)
 
 cat forctype1.sh 
 ```bash
@@ -950,7 +950,7 @@ $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-16-46.png>)
+ 
 
 cat fornested1.sh 
 ```bash
@@ -969,8 +969,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
- ![Alt text](<Screenshot at 2026-05-20 16-23-29.png>)
+ 
 
 cat forbreak.sh 
 ```bash
@@ -990,7 +989,7 @@ $ chmod 755 forbreak.sh
 $ ./forbreak.sh 
  ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-25-23.png>)
+ 
 
 cat forbreak.sh 
 ```bash
@@ -1013,7 +1012,7 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-26-35.png>)
+ 
  
 cat exread.sh 
 ```bash
@@ -1027,7 +1026,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-27-50.png>)
+ 
 
  cat exread1.sh
 ```bash
@@ -1040,7 +1039,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
-![Alt text](<Screenshot at 2026-05-20 16-28-56.png>)
+
 
 $ ./exread1.sh 
  
@@ -1062,12 +1061,10 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
-![Alt text](<Screenshot at 2026-05-20 16-30-28.png>)
  
  ./funcex.sh 1 2
 
-![Alt text](<Screenshot at 2026-05-20 16-30-49.png>)
- 
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
